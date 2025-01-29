@@ -1,0 +1,17 @@
+{
+    "manifest_version": 3,
+    "version": "1.0",
+    "name": "Potomac Service - Revenue Calc",
+    "description": "revenue calc for mom so she has less work",
+    "action": {
+        "default_popup": "index.html",
+        "default_icon": "icon.png"
+    },
+    "content_security_policy": {
+        "script-src": ["'self'", "https://cdnjs.cloudflare.com"],
+        "object-src": "'self'"
+    },
+    "permissions": [
+        "tabs"
+    ]
+}

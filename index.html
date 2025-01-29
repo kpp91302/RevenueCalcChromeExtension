@@ -1,0 +1,20 @@
+<html>
+    <head>
+        <meta http-equiv="Content-Security-Policy" content="script-src 'self' https://cdnjs.cloudflare.com/ajax/libs/">
+        <link rel="stylesheet" href="index.css">
+        <script src="papaparse.min.js"></script>
+    </head>
+    <body>
+        <main>
+            <div class="upper-container">
+                <h1>General Revenue Calculator</h1>
+                <h3>Determine general revenue by area</h3>
+            </div>
+            <div class="lower-container">
+                <input type="file" id="file-input" accept=".csv">
+                <table id="output-tbl"></table>
+            </div>
+            <script src="index.js" type="module" defer></script>
+        </main>
+    </body>
+</html>
