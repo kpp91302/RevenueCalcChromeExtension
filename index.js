@@ -89,9 +89,9 @@ function outputTable(data){
         <td>Other</td>
     </tr>
     <tr class="revenue-row">
-        <td>$${data.Nova}</td>
-        <td>$${data.Roanoke}</td>
-        <td>$${data.Other}</td>
+        <td>$${data.Nova.toLocaleString()}</td>
+        <td>$${data.Roanoke.toLocaleString()}</td>
+        <td>$${data.Other.toLocaleString()}</td><td>$${data.Nova}</td>    
     </tr>
     `
 }
